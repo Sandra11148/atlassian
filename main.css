@@ -1,0 +1,62 @@
+body {
+    background-color: blue;
+}
+
+.container {
+    width: 30%;
+    margin: 10px auto;
+}
+
+header, section {
+    width: 30%;
+    margin: 10px auto;
+
+}
+
+header img {
+    width: 100%;
+    
+}
+
+.loginText {
+    color: white;
+    font-size: 200%;
+    text-align: center;
+}
+
+.form-section {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px #345;
+}
+
+.form-section * {
+    display: block;
+    width: 100%;
+}
+
+.form-section input {
+    padding: 10px 5px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    outline: 1;
+    outline-color: gray;
+    margin-bottom: 10px;
+}
+
+.form-section input:hover {
+    background-color: #eee;
+}
+
+.form-section button {
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 0;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
